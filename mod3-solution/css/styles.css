@@ -1,0 +1,128 @@
+
+body {
+  font-size: 15px;
+  color: #7dcc7d;
+  background-color: #333;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #7dcc7d;
+  border-radius: 1;
+  border: 2;
+  border-color: #666;
+}
+
+.navbar-brand h1 { 
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  vertical-align: middle;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #ccc;
+}
+#nav-list a span {
+  font-size: 2.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+
+/*H2 Style*/
+#h2{
+  height: 40px;
+  width: 100%;
+  /*margin-bottom: 15px;*/
+  margin: 0px 0px 15px 0px;
+  position: relative;
+  overflow: hidden;  
+  text-align: center; 
+}
+
+#h2 span{
+  height: 40px;
+  text-align: center;
+  margin-top: auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+/*END of H2 Style*/
+
+
+/*MAIN WINDOW*/
+
+#tile {
+  height: 250px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  overflow: hidden;
+  background-color: #ccc;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+#tile > span{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+}
+
+#text{
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+  text-align: justify;
+  font-size: 1em;
+  color: #000; 
+}
+
+/*END MAIN WINDOW*/
+
+ 
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+  }
+
+}
+
+
